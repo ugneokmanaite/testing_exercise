@@ -1,7 +1,10 @@
+# importing math module
 import math
 
+# creating calculator class
 class Calc:
 
+# creating functions for the calculator
     def add(self, num1, num2):
         return num1 + num2
 
@@ -20,5 +23,6 @@ class Calc:
     def ceil(self, num1):
         return math.ceil(num1)
 
+# creating an objective
 simple_calc = Calc()
 
