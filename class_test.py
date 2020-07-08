@@ -1,11 +1,15 @@
+# importing unittest
 import unittest
 
+# from calculator class import all
 from calc import *
 
+# new class testing the calculator
 class Calc_test(unittest.TestCase):
 
     simple_calc = Calc()
 
+# functions to test different functions of calculator
     def test_add(self):
         self.assertEqual(self.simple_calc.add(4,4),8)
 
